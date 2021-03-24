@@ -42,3 +42,56 @@ body{
 #keyboard {
     height: 400px;
 }
+
+.operator, .number, .empty {
+    width: 50px;
+    height: 50px;
+    margin: 15px;
+    float: left;
+    border-radius: 50%;
+    border-width: 0;
+    font-weight: bold;
+    font-size: 15px;
+    background-color: lightgrey;
+}
+
+.number, .empty {
+    background-color: #eaedef;
+}
+
+.number, .operator {
+    cursor: pointer;
+}
+
+.operator:active, .number:active {
+    font-size: 12px;
+}
+
+.operator:focus, .empty:focus, .number:focus {
+    outline: 0;
+}
+
+button:nth-child(4){
+    font-size: 20px;
+    background-color: cadetblue;
+}
+
+button:nth-child(8){
+    font-size: 20px;
+    background-color: coral;
+}
+
+button:nth-child(12){
+    font-size: 20px;
+    background-color: darksalmon;
+}
+
+button:nth-child(16){
+    font-size: 20px;
+    background-color: lightskyblue;
+}
+
+button:nth-child(20){
+    font-size: 20px;
+    background-color: plum;
+}
