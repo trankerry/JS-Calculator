@@ -73,25 +73,25 @@ body{
 
 button:nth-child(4){
     font-size: 20px;
-    background-color: cadetblue;
+    background-color: red;
 }
 
 button:nth-child(8){
     font-size: 20px;
-    background-color: coral;
+    background-color: orange;
 }
 
 button:nth-child(12){
     font-size: 20px;
-    background-color: darksalmon;
+    background-color: green;
 }
 
 button:nth-child(16){
     font-size: 20px;
-    background-color: lightskyblue;
+    background-color: yellow;
 }
 
 button:nth-child(20){
     font-size: 20px;
-    background-color: plum;
+    background-color: blue;
 }
